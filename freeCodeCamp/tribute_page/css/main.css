@@ -1,0 +1,238 @@
+/* Standard css start */
+
+html {
+    font-family: 'Lato';
+    font-style: normal;
+}
+
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    margin: 0;
+    padding: 0;
+}
+
+main {
+    margin: 0;
+    padding: 0;
+    scroll-behavior: smooth;
+}
+
+body::-webkit-scrollbar {
+    display: none;
+}
+
+.main_content{
+    width: 1280px;
+}
+
+/* Standard css end */
+
+/* Standard header start */
+
+a:active, /* активная/посещенная ссылка */
+a:hover,  /* при наведении */
+a {
+  text-decoration: none;
+  color: inherit;
+}
+
+#tribute_header {
+    z-index: 1;
+    position: fixed;
+    opacity: 98%;
+    top: 0;
+}
+
+#tribute_header{
+    width: 100%;
+    height: 64px;
+    background-color: #1D1E26;
+    color: #F2F2F2;
+}
+
+nav{
+    height: 100%;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+}
+
+.tribute_header_list {
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 22px;
+}
+
+.tribute_header_list_element {
+    transition: 400ms;
+    cursor: pointer;
+    display: flex;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+    padding: 0 56px 0 56px;
+}
+
+.tribute_header_list_element:hover {
+    background-color: #8C111B;
+    font-size: 24px;
+    line-height: 31px;
+    padding: 0 94px 0 94px;
+}
+
+/* Standard header end */
+
+/* Standard tribute page start */
+#tribute_page{
+    position: relative;
+    height: 100vh;
+    padding-top: 35vh;
+    background-image: url("/img/forest.jpg");
+    text-align: center;
+    background-size: cover;
+}
+
+.tribute_page_text-header{
+    font-weight: 700;
+    font-size: 72px;
+    line-height: 92px;
+    text-shadow: -2px 2px 0px #8C111B;
+    margin-bottom: 5px;
+}
+
+.tribute_page_text-text{
+    font-size: 28px;
+    line-height: 29px;
+}
+
+.tribute_page_arrow{
+    transition: 200ms;
+    position: absolute;
+    bottom: 5vh;
+    cursor: pointer;
+}
+
+.tribute_page_arrow:hover{
+    bottom: 3vh;
+    transform: scale(1.2);
+}
+/* Standard tribute page end */
+
+/* Standard tribute biography start */
+#tribute_biography {
+    height: 100vh;
+    background-color: #1D1E26;
+    padding: 20vh 0;
+    color: #F2F2F2;
+}
+
+.tribute_biography_block{
+    height: 60vh;
+    margin: auto;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.tribute_biography_text-header{
+    text-align: center;
+    font-size: 48px;
+    line-height: 61px;
+    margin-bottom: 32px;
+}
+
+.tribute_biography_text-bio{
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 22px;
+    text-align: left;
+    margin-bottom: 1.2rem;
+}
+
+.tribute_biography_text{
+    width: 641px;
+}
+
+.tribute_biography_img{
+    width: 500px;
+    height: 100%;
+    border-radius: 200px;
+}
+
+.tribute_biography_img img{
+    width: 100%;
+    height: 100%;
+    box-shadow: 0 0 8px 8px #1D1E26 inset;
+}
+/* Standard tribute biography end */
+
+/* Standard tribute projects start */
+#tribute_project{
+    height: 100vh;
+    width: 100%;
+    background-color: #1D1E26;
+    padding-top: 10vh;
+}
+
+.tribute_projects_block{
+    height: 60vh;
+    margin: auto;
+    display: flex;
+    justify-content: space-between;
+}
+
+.tribute_projects_card{
+    height: 100%;
+    width: 45%;
+    background-color: #c7c7c7;
+    box-shadow: 3px 4px 4px rgba(0, 0, 0, 0.25);
+    border-radius: 20px;
+}
+
+.tribute_projects_card-img{
+    width: 90%;
+    height: auto;
+    margin: auto;
+    padding: 20px;
+}
+
+.tribute_projects_card img{
+    width: 100%;
+    height: auto;
+    border-radius: 10px;
+}
+
+.tribute_projects_card h3{
+    text-align: center;
+    font-size: 32px;
+    line-height: 44px;
+}
+
+/* Standard tribute projects end */
+
+/* Standard tribute footer start */
+
+#tribute_footer{
+    height: 64px;
+    width: 100%;
+    background-color: #8C111B;
+    color: #F2F2F2;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+#tribute_footer h2{
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 22px;
+}
+
+/* Standard tribute footer end */
